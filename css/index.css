@@ -1,8 +1,14 @@
 #container {
   position: absolute;
-  height: 100%;
+  height: calc(100% - 40px);
   width: 100%;
   background: black
+}
+
+#navbar {
+  height: 40px;
+  width: 100%;
+  background: black;
 }
 
 #disk1, #disk2, #disk3, #disk4{

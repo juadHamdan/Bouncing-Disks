@@ -1,13 +1,8 @@
 #container {
   position: absolute;
-  height: 95%;
+  height: 100%;
   width: 100%;
   background: black
-}
-
-#top {
-  width: 100%;
-  background: rgb(51, 51, 51)
 }
 
 #disk1, #disk2, #disk3, #disk4{

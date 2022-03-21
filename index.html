@@ -2,7 +2,7 @@
 <html>
 
 	<head>
-		<meta name = "viewport" content = "width=device-width">
+		<meta name = "viewport" content = "width=device-width, length=device-length">
 		<title>Bouncing Disks</title>
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
@@ -12,7 +12,8 @@
 	</head>
 	
 	<body>
-		<div id="top" class="text-center">	
+
+		<div id="container" class="text-center">
 			<div id="message"></div>	 
 			<div class="btn-group" role="group" aria-label="Basic example">
 				<button id='btn_start' class='btn btn-outline-light'>Start</button>
@@ -21,9 +22,6 @@
 				<label for="time_limit" class="form-label"></label>
 				<input type="text" class="form-control" id="time_limit" placeholder="Type Game Time In Ms.">
 			</div>
-		</div>
-
-		<div id="container" class="text-center">
 			<div id="disk1"></div>
 			<div id="disk2"></div>
 			<div id="disk3"></div>
@@ -35,37 +33,3 @@
 	<script src="js/index.js"></script>
 	
 </html>
-
-
-
-<!-- • Create a Web page that is a kind of a game
-V• Initially, it shows a rectangular area that covers most of page
-V• At each of the 4 sides of the rectangle, there is small disk. Each disk is
-adjacent to the inner side. The exact location is random and changes
-each time the page is accessed
-V• There will be controllers on the page:
-V• Start button
-V• Pause button
-V• Reset button
-V• Number entry field where the user will be able to specify time in seconds
-
-V• When the ‘Start’ button is clicked, each disks starts moving in a
-  straight line and constant speed. Each disk will have its own (random) speed and direction
-V• When two discs collide, one of them should evaporate
-V• The process will continue for the time specified by the controller or till just one disk is left on the page
-V• It’s possible to pause and reset the operation.
-• When the process is done, a message (not alert) will appear
-on the page with a summary 
-
-
-TODO 1:
-when starting, disks pos need to match with the initial pos.
-
-Solution 1: a function after the start button that pause the call to updatePosition.
-Solution 2: init the disks position to slightly far from the walls.
-
-TODO 2:
-change alert message to modal message. - Rami.
-
-
--->

@@ -1,4 +1,4 @@
-### Demo: juadhamdan.github.io/Bouncing-Disks/
+### Demo: https://juadhamdan.github.io/Bouncing-Disks/
 
 # Bouncing Disks - Description
  ```

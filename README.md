@@ -19,6 +19,9 @@
 • Number entry field where the user will be able to specify time in seconds
  ```
 
+![image](https://user-images.githubusercontent.com/64545813/205461056-deb4c97e-303d-4619-9afe-19d9727f6e47.png)
+
+
 
 
 
